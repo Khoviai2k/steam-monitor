@@ -35,8 +35,9 @@ cd E:\TramGame_v2\desktop\dll\steam-monitor-generator
 Sau đó push lên GitHub:
 
 ```powershell
-cd E:\steam-monitor
+cd E:\TramGame_v2\desktop\dll\steam-monitor
 git add .
 git commit -m "chore: add metadata for new Steam update"
 git push -u origin main
 ```
+
