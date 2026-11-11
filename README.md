@@ -34,7 +34,8 @@ byte. SHA trong tên TOML chỉ xác định binary Steam, không thay chữ ký
 
 Cache `.tgmeta` lưu kèm manifest/chữ ký và được xác minh lại khi đọc.
 Tệp tải thiếu, sai chữ ký, sai schema hoặc không khớp hash không ghi đè cache
-tốt. Dữ liệu cũ đã ký cho đúng Steam có thể dùng offline. Đây là kiểm tra
+tốt. Dữ liệu cũ đã ký cho đúng Steam có thể dùng offline khi inventory mới
+nhất đã nhận vẫn cho phép đúng bytes đó. Đây là kiểm tra
 metadata, không phải kiểm tra quyền sử dụng Lua.
 
 ## Cập nhật khi Steam có bản update mới
