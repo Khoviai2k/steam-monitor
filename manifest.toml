@@ -1,10 +1,15 @@
 schema_version = 1
-revision = 2
+revision = 3
 min_dll_schema = 1
 
 [[artifacts]]
 path = "ipc/steamclient/253e0a11a4415b38c78a42f7bdd6ecc426455f06c1ba6453a48090df3142dbbc.toml"
 sha256 = "8c499ab021a94b17a4c129e1a86b0273dd5dcbb16af742ddba8e978bbebefc68"
+size_bytes = 1131
+
+[[artifacts]]
+path = "ipc/steamclient/669fa08e259277fbf5a1dfe15ce88afe734e89151194304b44d92f418dcc985b.toml"
+sha256 = "8fc47306eff6fcd8b040cefd430ad78a74d9e5573598275c2928aa0d95a92d18"
 size_bytes = 1131
 
 [[artifacts]]
@@ -18,9 +23,19 @@ sha256 = "66465282a1b3b6e5bd3a49820fdb93f05c3eb4cfe298646ab5d2554bd09a43f3"
 size_bytes = 3877
 
 [[artifacts]]
+path = "pattern/steamclient/669fa08e259277fbf5a1dfe15ce88afe734e89151194304b44d92f418dcc985b.toml"
+sha256 = "57c011b06c96fe35271f9f0c58e4fdff96198b491ab1d5615774bd654d767680"
+size_bytes = 3907
+
+[[artifacts]]
 path = "pattern/steamclient/ebf46f84606e4dc49ebd551f6621f7ca5c19927d572a49f0aa4925ce9414096c.toml"
 sha256 = "c61bb2d1ff03474342229c498ed2c2fa3b4bf6b2529d3bf9b6ccd60cae9326a5"
 size_bytes = 3907
+
+[[artifacts]]
+path = "pattern/steamui/2dfb0a5d50dd90667549cc7d413c7bfb0794c9af4ebaf08bf1cf7d938a11ea93.toml"
+sha256 = "5a9ae05a017fd59645b51b64695b3e67d947a4df17c9400f9dc38933ee6ed4ac"
+size_bytes = 1601
 
 [[artifacts]]
 path = "pattern/steamui/5fdf0f7972ed7f6acb3949ec6dcd8a424e607a044a3e992bd3ffe8ebcf4d96f7.toml"
